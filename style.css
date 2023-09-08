@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: bisque;
+    height: 30vh;
+}
+.navbar{
+    width: 50%;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-size: 20px;
+    font-weight: 50;
+    border: 1px crimson solid;
+    padding: 10px 10px;
+    /* border-radius:10px; */
+}
+.btn{
+    /* border: 1px black solid; */
+    color: antiquewhite;
+}
+.btn button{
+    border: 1px black solid;
+    background-color:antiquewhite;
+    padding: 10px 20px;
+}
+.btn button:hover{
+    border:1px crimson solid;
+    background-color: burlywood;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 50;
+    text-align: center;
+    color:crimson;
+    border:1px back solid;
+}
+.btn a:hover{
+    color: black;
+}
+body{
+    background-color:aliceblue;
+}
+.content{
+    background-color:rgb(243, 243, 243);
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* margin:10px 10px; */
+    /* border: 1px black solid; */
+}
+.content h2{
+    color: crimson;
+    padding: 10px 10px;
+    margin: auto;
+    font-size:20px;
+    /* border: 1px black solid; */
+    /* border-bottom: 2px solid rgb(153, 252, 6); */
+    /* width: 10%; */
+}
+.content p{
+    color:rgb(28, 46, 40);
+    letter-spacing:1px;
+    line-height: 30px;
+}
+.btn-1{
+    border: 1px salmon solid;
+    margin:10px 10px;
+    padding: 10px 10px;
+    transition: 1s;
+}
+.btn-1 a{
+    text-decoration: none;
+    color:black;
+    font-size:13px;
+}
+.btn-1:hover{
+    border: 1px rgb(4, 83, 94) solid;
+    background-color: antiquewhite;
+    margin:10px 10px;
+    padding: 10px 10px;
+}
+@media (max-width: 425px) {
+    header{
+        height:35vh;
+    }
+    .navbar{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .navbar h1{
+        margin:5px 0px;
+        padding: 5px 0px;
+    }
+}
